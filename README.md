@@ -2,17 +2,32 @@
 
 ## Table of contents
 * [Video Link](#video-link)
+* [Screenshots](#screenshots)
 * [Description](#description)
 * [Features](#Features)
-* [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Architecture](#architecture)
+* [General info](#general-info)
 * [Contact](#contact)
 
 
 ## Video Link
 
 [Bankink App Linkedin Video](https://www.linkedin.com/feed/update/urn:li:activity:7042878821913571328/)
+
+
+## Screenshots
+
+Onboarding Screen1         |  Onboarding Screen2
+:-------------------------:|:-------------------------:
+![](./img/S1.png)  |  ![](./img/S2.png)
+
+Onboarding Screen3         |  Transactions List
+:-------------------------:|:-------------------------:
+![](./img/S3.png)          |  ![](./img/S4.png)
+
+Retry Screen               |  Transactions Detail
+:-------------------------:|:-------------------------:
+![](./img/S5.png)          |  ![](./img/S6.png)
 
 
 ## Description
@@ -37,36 +52,6 @@ With these patterns, the banking app delivers a clear separation of concerns, ma
 Choose an approach and app architecture you think of as most suitable for building an app which has to be maintained over a long time by a large team and which will get constantly extended. 
 
 Make sure to add proper and sufficient unit testing.
-
-
-## General info
-
-### Human Interface Guidelines
-* The application uses Apple's Human Interface Guidelines and native UI elements and it also adapts to the dark mode.
-
-### Project Setup
-The application views are all written in code and xib file because there are a few considerations:
-
-* Storyboards are more prone to version conflicts due to their complex XML structure. This makes merging much harder than with code.
-* It's easier to structure and reuse views in code, thereby keeping your codebase DRY.
-* All information is in one place. In Interface Builder you have to click through all the inspectors to find what you're looking for.
-* Storyboards introduce coupling between your code and UI, which can lead to crashes e.g. when an outlet or action is not set up correctly. These issues are not detected by the compiler.
-* You can create the constraints in code and create a more complex UI layout.
-
-
-## Screenshots
-
-Onboarding Screen1         |  Onboarding Screen2
-:-------------------------:|:-------------------------:
-![](./img/S1.png)  |  ![](./img/S2.png)
-
-Onboarding Screen3         |  Transactions List
-:-------------------------:|:-------------------------:
-![](./img/S3.png)          |  ![](./img/S4.png)
-
-Retry Screen               |  Transactions Detail
-:-------------------------:|:-------------------------:
-![](./img/S5.png)          |  ![](./img/S6.png)
 
 
 ## Architecture
@@ -108,6 +93,22 @@ Retry Screen               |  Transactions Detail
 - It allows us to have reusable View Controllers.
 - It also helps us isolate view controllers from each other, which comes in handy when we want to reuse them across our projects. 
 - It makes it easier to build new flows in the app.
+
+
+## General info
+
+### Human Interface Guidelines
+* The application uses Apple's Human Interface Guidelines and native UI elements and it also adapts to the dark mode.
+
+### Project Setup
+The application views are all written in code and xib file because there are a few considerations:
+
+* Storyboards are more prone to version conflicts due to their complex XML structure. This makes merging much harder than with code.
+* It's easier to structure and reuse views in code, thereby keeping your codebase DRY.
+* All information is in one place. In Interface Builder you have to click through all the inspectors to find what you're looking for.
+* Storyboards introduce coupling between your code and UI, which can lead to crashes e.g. when an outlet or action is not set up correctly. These issues are not detected by the compiler.
+* You can create the constraints in code and create a more complex UI layout.
+
 
 ## Contact
 Kevin Topollaj, email: kevintopollaj@gmail.com - feel free to contact me!
