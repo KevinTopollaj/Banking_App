@@ -12,7 +12,7 @@
 
 ## Video Link
 
-[Bankink App Linkedin Video](https://www.linkedin.com/feed/update/urn:li:activity:7042878821913571328/)
+[Banking App Video](https://www.linkedin.com/feed/update/urn:li:activity:7042878821913571328/)
 
 
 ## Screenshots
